@@ -24,6 +24,9 @@ h1 {
 		font-size: 30px;
 		@include text-shadow(2px 20px 20px blue);
 		text-transform: uppercase;
+		width: 200px;
+		position: relative;
+		left: 20px;
 	}
 
 }
