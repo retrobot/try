@@ -21,10 +21,11 @@ h1 {
 	&:hover {
 		@include box-shadow(5px 5px 5px black inset);
 		background-color: yellow;
-		font-size: 30px;
+		font-size: 50px;
 		@include text-shadow(2px 20px 20px blue);
 		text-transform: uppercase;
-		width: 200px;
+		width: 400px;
+		color:violet;
 		position: relative;
 		left: 20px;
 	}

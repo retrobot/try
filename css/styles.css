@@ -23,7 +23,7 @@ h1 {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #d88;
+  background: #999;
   width: 40%;
   height: 100px;
   text-align: center; }
@@ -33,9 +33,10 @@ h1 {
     -moz-box-shadow: 5px 5px 5px black inset;
     box-shadow: 5px 5px 5px black inset;
     background-color: yellow;
-    font-size: 30px;
+    font-size: 50px;
     text-shadow: 2px 20px 20px blue;
     text-transform: uppercase;
-    width: 150px;
+    width: 400px;
+    color: violet;
     position: relative;
     left: 20px; }
