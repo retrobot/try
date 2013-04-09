@@ -23,7 +23,7 @@ h1 {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #999;
+  background: #d88;
   width: 40%;
   height: 100px;
   text-align: center; }
@@ -36,6 +36,6 @@ h1 {
     font-size: 30px;
     text-shadow: 2px 20px 20px blue;
     text-transform: uppercase;
-    width: 200px;
+    width: 150px;
     position: relative;
     left: 20px; }
