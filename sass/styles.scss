@@ -1,0 +1,29 @@
+@import "compass";
+@import "compass/css3";
+
+h1 {
+	color: pink;
+	background: blue;
+	border: 22px solid green;
+	margin: 40px 40px;
+	@include box-shadow(22px, 2px, 2px, #555);
+	width: 20%;
+}
+
+.main {
+	@include box-shadow(10px 10px 20px #339);
+	@include border-radius(20px 40px 32px 5px);
+	@include transition(all .3s ease-in-out);
+	background: #999;
+	width: 40%;
+	height: 100px;
+	text-align: center;
+	&:hover {
+		@include box-shadow(5px 5px 5px black inset);
+		background-color: yellow;
+		font-size: 30px;
+		@include text-shadow(2px 20px 20px blue);
+		text-transform: uppercase;
+	}
+
+}

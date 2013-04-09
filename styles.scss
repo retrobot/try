@@ -1,0 +1,10 @@
+@import "compass";
+@import "compass/css3";
+
+h1 {
+	color: white;
+	background: blue;
+	border: 2px solid;
+	margin: 40px 40px;
+	@include box-shadow(2px, 2px, 2px, #555);
+}
