@@ -33,10 +33,11 @@ h1 {
     -moz-box-shadow: 5px 5px 5px black inset;
     box-shadow: 5px 5px 5px black inset;
     background-color: yellow;
-    font-size: 50px;
+    font-size: 80px;
     text-shadow: 2px 20px 20px blue;
     text-transform: uppercase;
-    width: 400px;
+    width: 80px;
     color: violet;
     position: relative;
-    left: 20px; }
+    left: 20px;
+    height: 300px; }

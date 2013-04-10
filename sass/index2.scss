@@ -1,0 +1,12 @@
+@import "compass";
+@import "compass/css3";
+@import "compass/reset";
+
+ul li {
+	display: inline-block;
+	border: 1px solid;
+	padding: 0 1%;
+	margin: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+}
