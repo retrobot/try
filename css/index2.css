@@ -62,3 +62,11 @@ ul li {
   margin: 0;
   text-decoration: none;
   text-transform: uppercase; }
+
+/* line 13, ../sass/index2.scss */
+#znikacz {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin: 0 auto;
+  font-size: 25px; }

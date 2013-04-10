@@ -24,7 +24,7 @@ var loggerBonzoExtra = (function() {
 	};
 }());
 
-alert(loggerBonzo(2));  
+// alert(loggerBonzo(2));  
 
 // LAZY
 
@@ -36,4 +36,20 @@ var digit_name = function (n) {
 	}
 	return digit_name(n);
 };
-alert(digit_name(2));
+// alert(digit_name(2));
+
+function fade(id) {
+	var dom = document.getElementById(id),
+		level = 1;
+	function step() {
+		var h = level.toString(16);
+		dom.style.backgroundColor =
+			'#FFFF' + h + h;
+		if (level < 15) {
+			level += 1;
+			setTimeout(step, 100);
+		}
+	}
+	setTimeout(step, 100);
+}
+fade('znikacz');

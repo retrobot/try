@@ -9,8 +9,9 @@
 <body>
 <section>
 		<header>
-			<h1>Hello World</h1>
+			<h1 id="hellow">Hello World</h1>
 		</header>
+		<div id="znikacz">Znika czTo</div>
 		<div>
 			<ul>
 				<li><a href="">Some</a></li>
@@ -21,6 +22,9 @@
 			</ul>
 		</div>
 	</section>	
+	<script>
+		fade('znikacz');
+	</script>
 </body>
 </html>
 
@@ -40,7 +44,7 @@
 <img src="img/add.png" alt="bag">
 <img src="img/add.png" alt="Bags to be seen now">
 
-(<div class="main">
+<div class="main">
 	<p class="mega">
 		<span class="ordinary"></span>
 		<a href=""><img src="" alt=""></a>
